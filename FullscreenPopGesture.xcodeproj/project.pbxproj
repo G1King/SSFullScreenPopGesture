@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3249AC1DFE83260083D798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249AB1DFE83260083D798 /* main.m */; };
+		EC3249AF1DFE83260083D798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249AE1DFE83260083D798 /* AppDelegate.m */; };
+		EC3249B21DFE83260083D798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249B11DFE83260083D798 /* ViewController.m */; };
+		EC3249B51DFE83260083D798 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3249B31DFE83260083D798 /* Main.storyboard */; };
+		EC3249B71DFE83260083D798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3249B61DFE83260083D798 /* Assets.xcassets */; };
+		EC3249BA1DFE83260083D798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3249B81DFE83260083D798 /* LaunchScreen.storyboard */; };
+		EC3249C51DFE83260083D798 /* FullscreenPopGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249C41DFE83260083D798 /* FullscreenPopGestureTests.m */; };
+		EC3249D01DFE83260083D798 /* FullscreenPopGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249CF1DFE83260083D798 /* FullscreenPopGestureUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC3249C11DFE83260083D798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32499F1DFE83260083D798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3249A61DFE83260083D798;
+			remoteInfo = FullscreenPopGesture;
+		};
+		EC3249CC1DFE83260083D798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC32499F1DFE83260083D798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC3249A61DFE83260083D798;
+			remoteInfo = FullscreenPopGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC3249A71DFE83260083D798 /* FullscreenPopGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenPopGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3249AB1DFE83260083D798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC3249AD1DFE83260083D798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC3249AE1DFE83260083D798 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC3249B01DFE83260083D798 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC3249B11DFE83260083D798 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC3249B41DFE83260083D798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC3249B61DFE83260083D798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC3249B91DFE83260083D798 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC3249BB1DFE83260083D798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3249C01DFE83260083D798 /* FullscreenPopGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3249C41DFE83260083D798 /* FullscreenPopGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGestureTests.m; sourceTree = "<group>"; };
+		EC3249C61DFE83260083D798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3249CB1DFE83260083D798 /* FullscreenPopGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3249CF1DFE83260083D798 /* FullscreenPopGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGestureUITests.m; sourceTree = "<group>"; };
+		EC3249D11DFE83260083D798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC3249A41DFE83260083D798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249BD1DFE83260083D798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249C81DFE83260083D798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC32499E1DFE83260083D798 = {
+			isa = PBXGroup;
+			children = (
+				EC3249A91DFE83260083D798 /* FullscreenPopGesture */,
+				EC3249C31DFE83260083D798 /* FullscreenPopGestureTests */,
+				EC3249CE1DFE83260083D798 /* FullscreenPopGestureUITests */,
+				EC3249A81DFE83260083D798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC3249A81DFE83260083D798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3249A71DFE83260083D798 /* FullscreenPopGesture.app */,
+				EC3249C01DFE83260083D798 /* FullscreenPopGestureTests.xctest */,
+				EC3249CB1DFE83260083D798 /* FullscreenPopGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC3249A91DFE83260083D798 /* FullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				EC3249AD1DFE83260083D798 /* AppDelegate.h */,
+				EC3249AE1DFE83260083D798 /* AppDelegate.m */,
+				EC3249B01DFE83260083D798 /* ViewController.h */,
+				EC3249B11DFE83260083D798 /* ViewController.m */,
+				EC3249B31DFE83260083D798 /* Main.storyboard */,
+				EC3249B61DFE83260083D798 /* Assets.xcassets */,
+				EC3249B81DFE83260083D798 /* LaunchScreen.storyboard */,
+				EC3249BB1DFE83260083D798 /* Info.plist */,
+				EC3249AA1DFE83260083D798 /* Supporting Files */,
+			);
+			path = FullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		EC3249AA1DFE83260083D798 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC3249AB1DFE83260083D798 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC3249C31DFE83260083D798 /* FullscreenPopGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3249C41DFE83260083D798 /* FullscreenPopGestureTests.m */,
+				EC3249C61DFE83260083D798 /* Info.plist */,
+			);
+			path = FullscreenPopGestureTests;
+			sourceTree = "<group>";
+		};
+		EC3249CE1DFE83260083D798 /* FullscreenPopGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC3249CF1DFE83260083D798 /* FullscreenPopGestureUITests.m */,
+				EC3249D11DFE83260083D798 /* Info.plist */,
+			);
+			path = FullscreenPopGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC3249A61DFE83260083D798 /* FullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3249D41DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture" */;
+			buildPhases = (
+				EC3249A31DFE83260083D798 /* Sources */,
+				EC3249A41DFE83260083D798 /* Frameworks */,
+				EC3249A51DFE83260083D798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullscreenPopGesture;
+			productName = FullscreenPopGesture;
+			productReference = EC3249A71DFE83260083D798 /* FullscreenPopGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC3249BF1DFE83260083D798 /* FullscreenPopGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3249D71DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureTests" */;
+			buildPhases = (
+				EC3249BC1DFE83260083D798 /* Sources */,
+				EC3249BD1DFE83260083D798 /* Frameworks */,
+				EC3249BE1DFE83260083D798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3249C21DFE83260083D798 /* PBXTargetDependency */,
+			);
+			name = FullscreenPopGestureTests;
+			productName = FullscreenPopGestureTests;
+			productReference = EC3249C01DFE83260083D798 /* FullscreenPopGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC3249CA1DFE83260083D798 /* FullscreenPopGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC3249DA1DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureUITests" */;
+			buildPhases = (
+				EC3249C71DFE83260083D798 /* Sources */,
+				EC3249C81DFE83260083D798 /* Frameworks */,
+				EC3249C91DFE83260083D798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3249CD1DFE83260083D798 /* PBXTargetDependency */,
+			);
+			name = FullscreenPopGestureUITests;
+			productName = FullscreenPopGestureUITests;
+			productReference = EC3249CB1DFE83260083D798 /* FullscreenPopGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC32499F1DFE83260083D798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SOBF;
+				TargetAttributes = {
+					EC3249A61DFE83260083D798 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+					};
+					EC3249BF1DFE83260083D798 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC3249A61DFE83260083D798;
+					};
+					EC3249CA1DFE83260083D798 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4B938222ZG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC3249A61DFE83260083D798;
+					};
+				};
+			};
+			buildConfigurationList = EC3249A21DFE83260083D798 /* Build configuration list for PBXProject "FullscreenPopGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC32499E1DFE83260083D798;
+			productRefGroup = EC3249A81DFE83260083D798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC3249A61DFE83260083D798 /* FullscreenPopGesture */,
+				EC3249BF1DFE83260083D798 /* FullscreenPopGestureTests */,
+				EC3249CA1DFE83260083D798 /* FullscreenPopGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC3249A51DFE83260083D798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3249BA1DFE83260083D798 /* LaunchScreen.storyboard in Resources */,
+				EC3249B71DFE83260083D798 /* Assets.xcassets in Resources */,
+				EC3249B51DFE83260083D798 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249BE1DFE83260083D798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249C91DFE83260083D798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3249A31DFE83260083D798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3249B21DFE83260083D798 /* ViewController.m in Sources */,
+				EC3249AF1DFE83260083D798 /* AppDelegate.m in Sources */,
+				EC3249AC1DFE83260083D798 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249BC1DFE83260083D798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3249C51DFE83260083D798 /* FullscreenPopGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3249C71DFE83260083D798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3249D01DFE83260083D798 /* FullscreenPopGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC3249C21DFE83260083D798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3249A61DFE83260083D798 /* FullscreenPopGesture */;
+			targetProxy = EC3249C11DFE83260083D798 /* PBXContainerItemProxy */;
+		};
+		EC3249CD1DFE83260083D798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC3249A61DFE83260083D798 /* FullscreenPopGesture */;
+			targetProxy = EC3249CC1DFE83260083D798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC3249B31DFE83260083D798 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3249B41DFE83260083D798 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC3249B81DFE83260083D798 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC3249B91DFE83260083D798 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC3249D21DFE83260083D798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC3249D31DFE83260083D798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC3249D51DFE83260083D798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC3249D61DFE83260083D798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC3249D81DFE83260083D798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenPopGesture.app/FullscreenPopGesture";
+			};
+			name = Debug;
+		};
+		EC3249D91DFE83260083D798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenPopGesture.app/FullscreenPopGesture";
+			};
+			name = Release;
+		};
+		EC3249DB1DFE83260083D798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullscreenPopGesture;
+			};
+			name = Debug;
+		};
+		EC3249DC1DFE83260083D798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4B938222ZG;
+				INFOPLIST_FILE = FullscreenPopGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FullscreenPopGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC3249A21DFE83260083D798 /* Build configuration list for PBXProject "FullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3249D21DFE83260083D798 /* Debug */,
+				EC3249D31DFE83260083D798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC3249D41DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3249D51DFE83260083D798 /* Debug */,
+				EC3249D61DFE83260083D798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC3249D71DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3249D81DFE83260083D798 /* Debug */,
+				EC3249D91DFE83260083D798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC3249DA1DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC3249DB1DFE83260083D798 /* Debug */,
+				EC3249DC1DFE83260083D798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC32499F1DFE83260083D798 /* Project object */;
+}
