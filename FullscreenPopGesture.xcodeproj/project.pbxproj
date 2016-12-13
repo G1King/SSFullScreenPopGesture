@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2109B01DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2109AF1DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.m */; };
 		EC3249AC1DFE83260083D798 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249AB1DFE83260083D798 /* main.m */; };
 		EC3249AF1DFE83260083D798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249AE1DFE83260083D798 /* AppDelegate.m */; };
 		EC3249B21DFE83260083D798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249B11DFE83260083D798 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		EC3249BA1DFE83260083D798 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3249B81DFE83260083D798 /* LaunchScreen.storyboard */; };
 		EC3249C51DFE83260083D798 /* FullscreenPopGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249C41DFE83260083D798 /* FullscreenPopGestureTests.m */; };
 		EC3249D01DFE83260083D798 /* FullscreenPopGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249CF1DFE83260083D798 /* FullscreenPopGestureUITests.m */; };
+		EC3249E21DFEA1760083D798 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249E11DFEA1760083D798 /* OneViewController.m */; };
+		EC3249E51DFEA17C0083D798 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3249E41DFEA17C0083D798 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC2109AE1DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FullscreenPopGesture.h"; sourceTree = "<group>"; };
+		EC2109AF1DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FullscreenPopGesture.m"; sourceTree = "<group>"; };
 		EC3249A71DFE83260083D798 /* FullscreenPopGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenPopGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3249AB1DFE83260083D798 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC3249AD1DFE83260083D798 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		EC3249CB1DFE83260083D798 /* FullscreenPopGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenPopGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3249CF1DFE83260083D798 /* FullscreenPopGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullscreenPopGestureUITests.m; sourceTree = "<group>"; };
 		EC3249D11DFE83260083D798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3249E01DFEA1760083D798 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		EC3249E11DFEA1760083D798 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		EC3249E31DFEA17C0083D798 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		EC3249E41DFEA17C0083D798 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,16 @@
 		EC3249A91DFE83260083D798 /* FullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
+				EC2109AE1DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.h */,
+				EC2109AF1DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.m */,
 				EC3249AD1DFE83260083D798 /* AppDelegate.h */,
 				EC3249AE1DFE83260083D798 /* AppDelegate.m */,
 				EC3249B01DFE83260083D798 /* ViewController.h */,
 				EC3249B11DFE83260083D798 /* ViewController.m */,
+				EC3249E01DFEA1760083D798 /* OneViewController.h */,
+				EC3249E11DFEA1760083D798 /* OneViewController.m */,
+				EC3249E31DFEA17C0083D798 /* TwoViewController.h */,
+				EC3249E41DFEA17C0083D798 /* TwoViewController.m */,
 				EC3249B31DFE83260083D798 /* Main.storyboard */,
 				EC3249B61DFE83260083D798 /* Assets.xcassets */,
 				EC3249B81DFE83260083D798 /* LaunchScreen.storyboard */,
@@ -276,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2109B01DFF88E9007D60EF /* UINavigationController+FullscreenPopGesture.m in Sources */,
 				EC3249B21DFE83260083D798 /* ViewController.m in Sources */,
+				EC3249E21DFEA1760083D798 /* OneViewController.m in Sources */,
 				EC3249AF1DFE83260083D798 /* AppDelegate.m in Sources */,
+				EC3249E51DFEA17C0083D798 /* TwoViewController.m in Sources */,
 				EC3249AC1DFE83260083D798 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = FullscreenPopGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGesture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4B938222ZG;
 				INFOPLIST_FILE = FullscreenPopGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sobf.FullscreenPopGesture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +536,7 @@
 				EC3249D61DFE83260083D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3249D71DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +545,7 @@
 				EC3249D91DFE83260083D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3249DA1DFE83260083D798 /* Build configuration list for PBXNativeTarget "FullscreenPopGestureUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +554,7 @@
 				EC3249DC1DFE83260083D798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
