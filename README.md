@@ -1,0 +1,2 @@
+# SSFullScreenPopGesture
+一个全屏侧滑手势 仿照FDFullScreenPopGesture AOP思想
